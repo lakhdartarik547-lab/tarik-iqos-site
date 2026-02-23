@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tarik | Boutique IQOS</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body{
+background:#0e0e0e;
+color:white;
+}
+
+nav{
+background:#000;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+nav h2{
+color:gold;
+font-weight:700;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:gold;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(120deg,#000,#1a1a1a);
+padding-top:60px;
+}
+
+.hero h1{
+font-size:40px;
+color:gold;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+opacity:0.8;
+}
+
+.products{
+padding:80px 40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
+}
+
+.card{
+background:#1a1a1a;
+padding:30px;
+border-radius:20px;
+text-align:center;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(255,215,0,0.4);
+}
+
+.card h3{
+margin-bottom:15px;
+}
+
+.price{
+color:gold;
+font-size:22px;
+margin:15px 0;
+font-weight:bold;
+}
+
+button{
+background:gold;
+border:none;
+padding:12px 30px;
+border-radius:30px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:white;
+}
+
+.about{
+padding:80px 40px;
+text-align:center;
+background:#111;
+}
+
+.about h2{
+color:gold;
+margin-bottom:20px;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+nav{padding:15px 20px;}
+.hero h1{font-size:28px;}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Tarik IQOS</h2>
+<ul>
+<li><a href="#home">Accueil</a></li>
+<li><a href="#products">Produits</a></li>
+<li><a href="#about">À propos</a></li>
+</ul>
+</nav>
+
+<section class="hero" id="home">
+<h1>Découvrez la Gamme IQOS ILUMA</h1>
+<p>Technologie innovante • Expérience premium • Sans combustion</p>
+</section>
+
+<section class="products" id="products">
+
+<div class="card">
+<h3>IQOS ILUMA ONE i</h3>
+<p>Compact et performant pour un usage quotidien.</p>
+<div class="price">350 DH</div>
+<a href="https://wa.me/212600000000?text=Bonjour%20Tarik,%20je%20souhaite%20acheter%20IQOS%20ILUMA%20ONE%20i">
+<button>Acheter via WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<h3>IQOS ILUMA i</h3>
+<p>Technologie avancée et design moderne.</p>
+<div class="price">800 DH</div>
+<a href="https://wa.me/212600000000?text=Bonjour%20Tarik,%20je%20souhaite%20acheter%20IQOS%20ILUMA%20i">
+<button>Acheter via WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<h3>IQOS ILUMA PRIME i</h3>
+<p>Expérience premium et élégance absolue.</p>
+<div class="price">1200 DH</div>
+<a href="https://wa.me/212600000000?text=Bonjour%20Tarik,%20je%20souhaite%20acheter%20IQOS%20ILUMA%20PRIME%20i">
+<button>Acheter via WhatsApp</button>
+</a>
+</div>
+
+</section>
+
+<section class="about" id="about">
+<h2>À propos</h2>
+<p>Je suis Tarik, conseiller commercial spécialisé IQOS. 
+Je vous accompagne avec un service personnalisé et professionnel pour une transition moderne et premium.</p>
+</section>
+
+<footer>
+© 2026 Tarik IQOS Store | Tous droits réservés
+</footer>
+
+</body>
+</html>
